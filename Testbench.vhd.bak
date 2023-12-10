@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity Testbench is 
+end; 
+architecture TB_BEHAVIOR of Testbench is 
+component week_8 is 
+port(clock: in std_logic);
+end component; 
+
+signal D_CLK: std_logic; 
+begin 
+
+  
+
+process
+constant OFF_PERIOD: TIME := 0.5 s; 
+constant ON_PERIOD : TIME := 0.5 s; 
+begin 
+wait  for OFF_PERIOD; 
+D_CLK <= '1'; 
+wait for ON_PERIOD; 
+D_CLK <= '0'; 
+end process;
+
+
+
+EUT: week_8 port map (D_CLK) ; 
+
+end TB_BEHAVIOR;

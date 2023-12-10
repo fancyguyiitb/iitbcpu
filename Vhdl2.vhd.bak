@@ -1,0 +1,72 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity cpu is
+	port (op_code: in std_logic_vector(3 downto 0);
+			state: in std_logic_vector(4 downto 0);
+			clock: in std_logic;
+			reset: in std_logic;
+			out_state: out std_logic_vector(4 downto 0)
+			);
+end entity cpu;
+
+architecture struct of state_transition is
+
+signal y_present,y_next: std_logic_vector(4 downto 0);
+
+begin
+clock_proc:process(clock,reset)
+begin
+if(clock='1' and clock' event) then
+if(reset='1') then
+y_present<="";
+else
+y_present<=y_next;
+end if;
+end if;
+end process;
+
+state_transition_proc:process(inp,y_present)
+begin
+
+case y_present is
+
+when =>
+if(op_code="0000" or op_code="0010" or op_code="0011" or op_code="0100" or op_code="0101" or op_code="0110") then 
+y_next<= s;
+outp<='0'; -- Fill the code here
+else
+y_next<=rst;
+outp<='0';
+end if;
+
+when s1=>
+if(unsigned(inp)=15) then --b has been detected
+y_next<= s2;
+outp<='0'; -- Fill the code here
+else
+y_next<=s1;
+outp<='0';
+end if;
+
+when s2=>
+if(unsigned(inp)=13) then --b has been detected
+y_next<= s3;
+outp<='0'; -- Fill the code here
+else
+y_next<=s2;
+outp<='0';
+end if;
+
+when s3=>
+if(unsigned(inp)=2) then --b has been detected
+y_next<= s1;
+outp<='1'; -- Fill the code here
+else
+y_next<=s3;
+outp<='0';
+end if;
+
+end case;
+end process state_transition_proc;
+end bhv;

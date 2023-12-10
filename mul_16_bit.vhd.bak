@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;	 
+use ieee.std_logic_unsigned.all;
+
+entity mul_16_bit is
+	port(A, B: in std_logic_vector(15 downto 0);
+		  C: out std_logic_vector(31 downto 0)
+		 ); 
+end entity mul_16_bit;
+
+architecture bhv of mul_16_bit is
+signal A_int, B_int: integer range 0 to 2**16 - 1;
+ signal P_int: integer range 0 to 2**32 - 1;
+process
+  begin
+    A_int <= to_integer(unsigned(A));
+    B_int <= to_integer(unsigned(B));
+    P_int <= A_int * B_int;
+    C <= std_logic_vector(to_unsigned(P_int, P'length));
+  end process;
+end architecture;
