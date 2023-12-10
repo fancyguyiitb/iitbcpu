@@ -1,0 +1,276 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do cpu_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/medha/Desktop/project/rf.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:06 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/rf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity rf
+# -- Compiling architecture bhv of rf
+# End time: 18:49:06 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/cpu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:06 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/cpu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU
+# -- Compiling architecture completete of CPU
+# End time: 18:49:06 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/sign_extend7.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:06 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/sign_extend7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extend7
+# -- Compiling architecture bhv of sign_extend7
+# End time: 18:49:06 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/sign_extend10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:06 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/sign_extend10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extend10
+# -- Compiling architecture bhv of sign_extend10
+# End time: 18:49:06 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:06 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture bhv of full_adder
+# End time: 18:49:06 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/adder_16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:06 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/adder_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder_16_bit
+# -- Compiling architecture struct of adder_16_bit
+# End time: 18:49:07 on Dec 04,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/and-16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:07 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/and-16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_16_bit
+# -- Compiling architecture struct of and_16_bit
+# End time: 18:49:07 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/or_16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:07 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/or_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or_16_bit
+# -- Compiling architecture struct of or_16_bit
+# End time: 18:49:07 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/imp_16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/imp_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity imp_16_bit
+# -- Compiling architecture struct of imp_16_bit
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/mul_16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/mul_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mul_16_bit
+# -- Compiling architecture bhv of mul_16_bit
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu
+# -- Compiling architecture struct of ALU
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/sub_16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/sub_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sub_16_bit
+# -- Compiling architecture struct of sub_16_bit
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Memory
+# -- Compiling architecture mem of Memory
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/fsm.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture struct of FSM
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DataPath
+# -- Compiling architecture trivial of DataPath
+# End time: 18:49:08 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/T_register.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:08 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/T_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T_reg
+# -- Compiling architecture bhv of T_reg
+# End time: 18:49:09 on Dec 04,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/medha/Desktop/project/Lshifter8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:09 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/Lshifter8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Lshifter8
+# -- Compiling architecture struct of Lshifter8
+# End time: 18:49:09 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/medha/Desktop/project/Testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:49:09 on Dec 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/medha/Desktop/project/Testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture TB_BEHAVIOR of Testbench
+# End time: 18:49:09 on Dec 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 18:49:09 on Dec 04,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(tb_behavior)
+# Loading work.cpu(completete)
+# Loading work.datapath(trivial)
+# Loading ieee.numeric_std(body)
+# Loading work.t_reg(bhv)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rf(bhv)
+# Loading work.sign_extend7(bhv)
+# Loading work.sign_extend10(bhv)
+# Loading work.lshifter8(struct)
+# Loading work.memory(mem)
+# Loading work.alu(struct)
+# Loading work.adder_16_bit(struct)
+# Loading work.full_adder(bhv)
+# Loading work.sub_16_bit(struct)
+# Loading work.and_16_bit(struct)
+# Loading work.imp_16_bit(struct)
+# Loading work.or_16_bit(struct)
+# Loading work.mul_16_bit(bhv)
+# Loading work.fsm(struct)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 4  Instance: /testbench/EUT/Main_Data/reg_file
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 10 ns  Iteration: 4  Instance: /testbench/EUT/Main_Data/reg_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 4  Instance: /testbench/EUT/Main_Data/reg_file
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 10 ns  Iteration: 4  Instance: /testbench/EUT/Main_Data/reg_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 2  Instance: /testbench/EUT/Main_Data/reg_file
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ns  Iteration: 2  Instance: /testbench/EUT/Main_Data/reg_file
+add wave -position insertpoint sim:/testbench/EUT/Main_Data/alu_comp/*
+add wave -position insertpoint sim:/testbench/EUT/Main_Data/IR/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 18:53:50 on Dec 04,2023, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 6
